@@ -1,0 +1,27 @@
+{
+  "name": "graphql-casbin-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "graphql-codegen"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.3",
+    "@graphql-codegen/cli": "^5.0.0",
+    "@graphql-codegen/typescript-resolvers": "^4.0.1",
+    "casbin": "^5.27.1",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6"
+  }
+}
